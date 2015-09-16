@@ -11,9 +11,11 @@ npm install --save remove-markdown-extension
 ## Usage
 
 ```javascript
-var removeMarkdownExtension = require('remove-markdown-extension');
+var removeMarkdownExtension = require('remove-markdown-extension')
 
-removeMarkdownExtension();  // => true
+removeMarkdownExtension('pages/foobar.md')          // => 'pages/foobar'
+removeMarkdownExtension('pages/foobarbaz.markdown') // => 'pages/foobarbaz'
+removeMarkdownExtension('pages/an.md.trick.html')   // => 'pages/an.md.trick.html'
 ```
 
 ## License
