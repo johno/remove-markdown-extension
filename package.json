@@ -14,7 +14,13 @@
     "type": "git",
     "url": "https://github.com/johnotander/remove-markdown-extension.git"
   },
-  "keywords": [],
+  "keywords": [
+    "markdown",
+    "extension",
+    "ext",
+    "md",
+    "remove"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/johnotander/remove-markdown-extension/issues"
